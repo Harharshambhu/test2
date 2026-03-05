@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anirudh Singh | Resume</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--dark);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-left: 4px solid var(--primary);
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        .item {
+            margin-bottom: 20px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .location {
+            color: var(--gray);
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume-container">
+        <header>
+            <h1>Anirudh Singh</h1>
+            <div class="subtitle">XR Designer & Product Strategist</div>
+            <p>IIT Jodhpur | <a href="https://sokimevi.com">sokimevi.com</a></p>
+        </header>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>M.Des. in XR Design</span>
+                    <span>2024 — Present</span>
+                </div>
+                <div>Indian Institute of Technology (IIT), Jodhpur</div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span>B.Des. in Fashion Design</span>
+                    <span>2019 — 2023</span>
+                </div>
+                <div>FDDI, Noida</div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span>Immersive Media Intern</span>
+                    <span>June — July 2025</span>
+                </div>
+                <div class="location">Mintlabs Events and Production</div>
+                <ul>
+                    <li>Developed immersive content for high-stakes event environments.</li>
+                    <li>Integrated digital workflows for corporate and government events.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Key Projects</h2>
+            <div class="item">
+                <strong>Comfort Aid</strong>
+                <p>Designed an ergonomic assistive medical device and patient transfer system to reduce injury risks for
+                    healthcare staff.</p>
+            </div>
+            <div class="item">
+                <strong>MinesweeperVR & Dilemma (VR Film)</strong>
+                <p>Explored spatial interaction and immersive storytelling within Virtual Reality environments.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div><strong>Design:</strong> Unity, Blender, XR Prototyping</div>
+                <div><strong>Development:</strong> Linux (Debian/Fedora), Three.js, Git</div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
